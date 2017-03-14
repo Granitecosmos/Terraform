@@ -3,7 +3,7 @@ Have you ever wondered why your colonists can't just dig up some soil and bring 
 
 **Well fear not, for I bring you Terraform!**
 
-**Now, before we start.** I know there are other mods that more or less do the same thing and most of them are probably more balanced than this one. On the other hand, since most of my mods were originally made just for my own personal use (just like this one), I might as well publish this one too.
+**Now, before we start.** I know there are other mods that more or less do the same thing and most of them are probably more balanced than this one. On the other hand, since most of my mods were originally made just for my own personal use (just like this one), I might as well release this one too.
 
 Now, let's get started. First of all, the terrain tiles you'll be able to build don't cost anything except time. Lots of time. No, seriously. It will take a lengthy time for your colonists to convert the terrain. That's the catch, it's more like an opportunity cost; you could be doing other stuff but you decided to do this instead.
 
