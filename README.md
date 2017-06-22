@@ -17,14 +17,19 @@ I personally recommend skyarkhangel's **[Old style research menu mod](https://lu
 I should probably increase the work to build the different terrain types. Probably. However, as I've stated above, there are other mods out there that probably do this better.
 
 ## Compatibility
-This mod isn't compatible with any other mod that changes:
+This mod adds additional functions to these via patching:
 - Gravel
 - Sand
 - Soil
 - Rich Soil
 - Lichen-covered Dirt
 - Marsh
+You might run into problems if you hav any mod that also changes these. Patching overwrites def edits so beware.
 
 ## Changelog
 Version 1.0.16.0.0
 - Initial release
+
+Version 1.0.17b.0.0
+- Updated for A17b
+- Switched to patching for editing vanilla defs
