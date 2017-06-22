@@ -24,6 +24,7 @@ This mod adds additional functions to these via patching:
 - Rich Soil
 - Lichen-covered Dirt
 - Marsh
+
 You might run into problems if you hav any mod that also changes these. Patching overwrites def edits so beware.
 
 ## Changelog
