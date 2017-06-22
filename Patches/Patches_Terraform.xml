@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Sand"]</xpath>
+		<Value>
+			<Description>Infertile sand. Slow to walk on.</Description>
+			<designationCategory>Floors</designationCategory>
+			<researchPrerequisites>
+				<li>terraform3</li>
+			</researchPrerequisites>
+			<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Sand"]/statBases</xpath>
+		<Value>
+			<WorkToBuild>12000</WorkToBuild>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Soil"]</xpath>
+		<Value>
+			<Description>Average soil that can harbour plant life.</Description>
+			<designationCategory>Floors</designationCategory>
+			<researchPrerequisites>
+				<li>terraform2</li>
+			</researchPrerequisites>
+			<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Soil"]/statBases</xpath>
+		<Value>
+			<WorkToBuild>10000</WorkToBuild>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "MarshyTerrain"]</xpath>
+		<Value>
+			<Description>Marsh usually found in wet environments. Very slow to walk on.</Description>
+			<designationCategory>Floors</designationCategory>
+			<researchPrerequisites>
+				<li>terraform4</li>
+			</researchPrerequisites>
+			<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "MarshyTerrain"]/statBases</xpath>
+		<Value>
+			<WorkToBuild>40000</WorkToBuild>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "SoilRich"]</xpath>
+		<Value>
+			<Description>Mineral-rich soil. Plants will grow faster on it.</Description>
+			<designationCategory>Floors</designationCategory>
+			<researchPrerequisites>
+				<li>terraform4</li>
+			</researchPrerequisites>
+			<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "SoilRich"]/statBases</xpath>
+		<Value>
+			<WorkToBuild>15000</WorkToBuild>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Gravel"]</xpath>
+		<Value>
+			<Description>Rocky, poor soil. Plants can grow on it but slower.</Description>
+			<designationCategory>Floors</designationCategory>
+			<researchPrerequisites>
+				<li>terraform1</li>
+			</researchPrerequisites>
+			<terrainAffordanceNeeded>SmoothHard</terrainAffordanceNeeded>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Gravel"]/statBases</xpath>
+		<Value>
+			<WorkToBuild>10000</WorkToBuild>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "MossyTerrain"]</xpath>
+		<Value>
+			<Description>Mossy soil usually found in cold environments.</Description>
+			<designationCategory>Floors</designationCategory>
+			<researchPrerequisites>
+				<li>terraform4</li>
+			</researchPrerequisites>
+			<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/TerrainDefs/TerrainDef[defName = "MossyTerrain"]/statBases</xpath>
+		<Value>
+			<WorkToBuild>11000</WorkToBuild>
+		</Value>
+	</Operation>
+</Patch>
