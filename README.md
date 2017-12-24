@@ -9,10 +9,6 @@ Now, let's get started. First of all, the terrain tiles you'll be able to build 
 
 Obviously it wouldn't be even nearly balanced if you could just build fertile soil everywhere. I tried to make it somewhat tiered; you convert infertile diggable terrain into gravel, then you can convert gravel into any other fertile terrain type. You can also build gravel on smooth stone. However, you can't just start converting gravel into fertile soil right away. Terrain types are locked behind research so you'll gradually unlock stuff as you progress.
 
-**However, all this power comes at a cost. In this case the cost is the Tech Tree.**
-Since the current iteration isn't exactly mod-friendly, especially not so when we include several mods, I didn't even bother with coordinates. So please use a mod that reverts the Tech Screen to pre-A16 state. Honestly, since Tynan is a cool guy who wants the game to be mod-friendly, the Tech Tree will change anyway so it isn't such a huge loss.
-I personally recommend skyarkhangel's **[Old style research menu mod](https://ludeon.com/forums/index.php?topic=28609.0)**.
-
 ## Balance
 I should probably increase the work to build the different terrain types. Probably. However, as I've stated above, there are other mods out there that probably do this better.
 
@@ -34,3 +30,8 @@ Version 1.0.16.0.0
 Version 1.0.17b.0.0
 - Updated for A17b
 - Switched to patching for editing vanilla defs
+
+Version 1.0.18.0.0
+- Updated for B18
+- Optimized Xpathing code
+- Added separate research tab for the mod
